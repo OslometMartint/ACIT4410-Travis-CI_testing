@@ -21,7 +21,6 @@ before_install:
 script:
   - ls
   - chmod +x hello.sh
-  - docker pull scratch
 
 after_script:
   - echo "End of pipeline"
